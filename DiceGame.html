@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Rolling Game</title>
+    <link rel="stylesheet" href="cssFile.css">
+</head>
+<body>
+    <h1>Dice Rolling Game</h1>
+    <form action="DiceGame.py" method="post">
+        <label for="num_dice">Number of Dice:</label>
+        <input type="number" name="num_dice" id="num_dice" required>
+        <br>
+        <label for="max_value">Max Value:</label>
+        <input type="number" name="max_value" id="max_value" required>
+        <br>
+        <label for="num_tries">Number of Tries:</label>
+        <input type="number" name="num_tries" id="num_tries" required>
+        <br>
+        <button type="submit">Roll Dice</button>
+    </form>
+</body>
+</html>
